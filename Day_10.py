@@ -45,6 +45,6 @@ while True:
     elif cal_cont.lower() == "stop":
         break
     else:
-        print("\n"*20)
+        print(chr(27) + "[2J")
         num_1 = float(input("What's the first number?: "))
 
